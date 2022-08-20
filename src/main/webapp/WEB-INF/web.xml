@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.AddServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>user</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.UserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>enter</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.EnterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>enter</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>list</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.ListServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>list</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>put</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.PutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>put</servlet-name>
+    <url-pattern>/put</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>tempuser</servlet-name>
+    <servlet-class>ru.belyaeva.servlet.TempUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>tempuser</servlet-name>
+    <url-pattern>/tempuser</url-pattern>
+  </servlet-mapping>
+
+</web-app>

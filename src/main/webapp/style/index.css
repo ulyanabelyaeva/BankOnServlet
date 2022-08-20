@@ -1,0 +1,111 @@
+*{
+    box-sizing:border-box;
+}
+
+body, html{
+    height: 100%;
+    font-size: 25px;
+    padding:0;
+    margin:0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #BFE6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: #565656;
+    box-shadow: 1px 1px 3px 1px #b2d6ec;
+    z-index: 10;
+}
+
+main{
+    background-color: #e0f3ff;
+    display: flex;
+    width: 100%;
+    flex: 1 1 auto;
+    flex-direction: column;
+    z-index: 5;
+    color: #565656;
+    padding: 0px 15px;
+}
+
+.title{
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.title2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: #BFE6FF;
+    color: #494949;
+}
+
+button{
+    background-color: #BFE6FF;
+    color: #565656;
+    box-shadow: 1px 1px 3px 1px #b2d6ec;
+    transition: box-shadow 0.01s linear;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.in_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.part1{
+    display: flex; 
+    flex-direction: column;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input{
+    height: 25px;
+    border-radius:10px;
+    border: #565656 solid 1px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type = checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}

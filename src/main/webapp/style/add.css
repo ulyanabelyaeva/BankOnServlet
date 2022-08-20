@@ -1,0 +1,11 @@
+header{
+    justify-content: flex-start;
+}
+main{
+    padding-top: 50px;
+}
+.back{
+    width: 70px;
+    margin-left: 15px;
+    background-color: #f6fbff;
+}
